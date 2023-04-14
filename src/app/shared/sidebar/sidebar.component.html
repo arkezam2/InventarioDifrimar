@@ -1,0 +1,69 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+     <span class="brand-text font-weight-light"> Menu </span>
+    </a>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+ 
+        <div class="info">
+          <a href="#" class="d-block"> </a>
+        </div>
+      </div>
+      <!-- SidebarSearch Form -->
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+ 
+          <li class="nav-item">
+            <a routerLink="/dashboard" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Panel General
+              </p>
+            </a>
+            <li class="nav-item">
+              <a routerLink="/dashboard/clientes" class="nav-link">
+                <i class="nav-icon fas fa-user"></i>
+                <p>
+                  Clientes
+                </p>
+              </a>
+
+          </li>
+          <li class="nav-item">
+            <a routerLink="/dashboard/equipos" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Equipos
+                 
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/dashboard/asignacion" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Asignacion
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/dashboard/seguimiento" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Seguimiento
+              </p>
+            </a>
+          </li>
+          </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+
+  <router-outlet></router-outlet>
